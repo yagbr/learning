@@ -1,0 +1,23 @@
+//------- javascript -------- //
+document.getElementById("").style.color ="";
+
+document.getElementById("").onmouseover = function (){myOver()};
+document.getElementById("").onmouseout = function () {myOut()};
+function myOver(){
+  document.getElementById("").style.color ="";	
+}
+
+function myOut(){
+  document.getElementById("").style.color ="";	
+}
+
+//------- jquery ------//
+$("").css("","");
+
+$("").hover(function() {
+  $(this).css("","");
+  },function(){
+   $(this).css("","");
+})
+
+document.getElementById("").innerHtml = "";
